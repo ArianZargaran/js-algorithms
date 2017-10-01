@@ -6,7 +6,7 @@ function favNum(num){
   if(isNaN(num)){
     alert("That's not a number. Reload the page and try again");
   } else {
-  var sum = 1;
+  var sum = 0;
   for(var i = 1; i <= num; i++){
     sum += i;
     }
